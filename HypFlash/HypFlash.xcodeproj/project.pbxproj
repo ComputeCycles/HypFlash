@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C51F8C6612788ECCC0825C9 /* Pods_HypFlash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DE4022EB4007181FB29DBE /* Pods_HypFlash.framework */; };
+		FBB8C4B5229B6C5100164F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8C4B4229B6C5100164F36 /* AppDelegate.swift */; };
+		FBB8C4B7229B6C5100164F36 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8C4B6229B6C5100164F36 /* MainViewController.swift */; };
+		FBB8C4B9229B6C5400164F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB8C4B8229B6C5400164F36 /* Assets.xcassets */; };
+		FBB8C4BC229B6C5400164F36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB8C4BA229B6C5400164F36 /* Main.storyboard */; };
+		FBB8C4C8229B6C5500164F36 /* HypFlashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8C4C7229B6C5500164F36 /* HypFlashTests.swift */; };
+		FBB8C4D4229B6E1900164F36 /* hypriot.yml in Resources */ = {isa = PBXBuildFile; fileRef = FBB8C4D3229B6E1900164F36 /* hypriot.yml */; };
+		FBB8C4D6229C096300164F36 /* flash in Resources */ = {isa = PBXBuildFile; fileRef = FBB8C4D5229C096300164F36 /* flash */; };
+		FBB8C4D8229C106B00164F36 /* SSHFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB8C4D7229C106B00164F36 /* SSHFolder.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBB8C4C4229B6C5400164F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB8C4A9229B6C5000164F36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB8C4B0229B6C5100164F36;
+			remoteInfo = HypFlash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06B3812D34643BA53BBDC527 /* Pods-HypFlash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypFlash.release.xcconfig"; path = "../Pods/Target Support Files/Pods-HypFlash/Pods-HypFlash.release.xcconfig"; sourceTree = "<group>"; };
+		94DE4022EB4007181FB29DBE /* Pods_HypFlash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HypFlash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D0B4F05E693247D62BF583 /* Pods-HypFlash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypFlash.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-HypFlash/Pods-HypFlash.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB8C4B1229B6C5100164F36 /* HypFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB8C4B4229B6C5100164F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBB8C4B6229B6C5100164F36 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FBB8C4B8229B6C5400164F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBB8C4BB229B6C5400164F36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBB8C4BD229B6C5400164F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB8C4BE229B6C5400164F36 /* HypFlash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypFlash.entitlements; sourceTree = "<group>"; };
+		FBB8C4C3229B6C5400164F36 /* HypFlashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypFlashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB8C4C7229B6C5500164F36 /* HypFlashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypFlashTests.swift; sourceTree = "<group>"; };
+		FBB8C4C9229B6C5500164F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB8C4D3229B6E1900164F36 /* hypriot.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hypriot.yml; sourceTree = "<group>"; };
+		FBB8C4D5229C096300164F36 /* flash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = flash; sourceTree = "<group>"; };
+		FBB8C4D7229C106B00164F36 /* SSHFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SSHFolder.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB8C4AE229B6C5100164F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51F8C6612788ECCC0825C9 /* Pods_HypFlash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB8C4C0229B6C5400164F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C60C1E43694B9C02932D51C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1D0B4F05E693247D62BF583 /* Pods-HypFlash.debug.xcconfig */,
+				06B3812D34643BA53BBDC527 /* Pods-HypFlash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E8C06B5550A94C79DA04E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94DE4022EB4007181FB29DBE /* Pods_HypFlash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBB8C4A8229B6C5000164F36 = {
+			isa = PBXGroup;
+			children = (
+				FBB8C4B3229B6C5100164F36 /* HypFlash */,
+				FBB8C4C6229B6C5400164F36 /* HypFlashTests */,
+				FBB8C4B2229B6C5100164F36 /* Products */,
+				4C60C1E43694B9C02932D51C /* Pods */,
+				9E8C06B5550A94C79DA04E7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB8C4B2229B6C5100164F36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB8C4B1229B6C5100164F36 /* HypFlash.app */,
+				FBB8C4C3229B6C5400164F36 /* HypFlashTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB8C4B3229B6C5100164F36 /* HypFlash */ = {
+			isa = PBXGroup;
+			children = (
+				FBB8C4B4229B6C5100164F36 /* AppDelegate.swift */,
+				FBB8C4B6229B6C5100164F36 /* MainViewController.swift */,
+				FBB8C4B8229B6C5400164F36 /* Assets.xcassets */,
+				FBB8C4BA229B6C5400164F36 /* Main.storyboard */,
+				FBB8C4BD229B6C5400164F36 /* Info.plist */,
+				FBB8C4BE229B6C5400164F36 /* HypFlash.entitlements */,
+				FBB8C4D2229B6DBF00164F36 /* Resources */,
+			);
+			path = HypFlash;
+			sourceTree = "<group>";
+		};
+		FBB8C4C6229B6C5400164F36 /* HypFlashTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB8C4C7229B6C5500164F36 /* HypFlashTests.swift */,
+				FBB8C4C9229B6C5500164F36 /* Info.plist */,
+			);
+			path = HypFlashTests;
+			sourceTree = "<group>";
+		};
+		FBB8C4D2229B6DBF00164F36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBB8C4D7229C106B00164F36 /* SSHFolder.png */,
+				FBB8C4D5229C096300164F36 /* flash */,
+				FBB8C4D3229B6E1900164F36 /* hypriot.yml */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB8C4B0229B6C5100164F36 /* HypFlash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB8C4CC229B6C5500164F36 /* Build configuration list for PBXNativeTarget "HypFlash" */;
+			buildPhases = (
+				CAF9ECBBCDEACC2FE47149EC /* [CP] Check Pods Manifest.lock */,
+				FBB8C4AD229B6C5100164F36 /* Sources */,
+				FBB8C4AE229B6C5100164F36 /* Frameworks */,
+				FBB8C4AF229B6C5100164F36 /* Resources */,
+				D0659E86E923D84692F93E47 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypFlash;
+			productName = HypFlash;
+			productReference = FBB8C4B1229B6C5100164F36 /* HypFlash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBB8C4C2229B6C5400164F36 /* HypFlashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB8C4CF229B6C5500164F36 /* Build configuration list for PBXNativeTarget "HypFlashTests" */;
+			buildPhases = (
+				FBB8C4BF229B6C5400164F36 /* Sources */,
+				FBB8C4C0229B6C5400164F36 /* Frameworks */,
+				FBB8C4C1229B6C5400164F36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB8C4C5229B6C5400164F36 /* PBXTargetDependency */,
+			);
+			name = HypFlashTests;
+			productName = HypFlashTests;
+			productReference = FBB8C4C3229B6C5400164F36 /* HypFlashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB8C4A9229B6C5000164F36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "ComputeCycles, LLC";
+				TargetAttributes = {
+					FBB8C4B0229B6C5100164F36 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					FBB8C4C2229B6C5400164F36 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FBB8C4B0229B6C5100164F36;
+					};
+				};
+			};
+			buildConfigurationList = FBB8C4AC229B6C5000164F36 /* Build configuration list for PBXProject "HypFlash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBB8C4A8229B6C5000164F36;
+			productRefGroup = FBB8C4B2229B6C5100164F36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB8C4B0229B6C5100164F36 /* HypFlash */,
+				FBB8C4C2229B6C5400164F36 /* HypFlashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBB8C4AF229B6C5100164F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB8C4B9229B6C5400164F36 /* Assets.xcassets in Resources */,
+				FBB8C4D8229C106B00164F36 /* SSHFolder.png in Resources */,
+				FBB8C4BC229B6C5400164F36 /* Main.storyboard in Resources */,
+				FBB8C4D4229B6E1900164F36 /* hypriot.yml in Resources */,
+				FBB8C4D6229C096300164F36 /* flash in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB8C4C1229B6C5400164F36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAF9ECBBCDEACC2FE47149EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HypFlash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0659E86E923D84692F93E47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-HypFlash/Pods-HypFlash-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Yams/Yams.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Yams.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HypFlash/Pods-HypFlash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB8C4AD229B6C5100164F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB8C4B7229B6C5100164F36 /* MainViewController.swift in Sources */,
+				FBB8C4B5229B6C5100164F36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB8C4BF229B6C5400164F36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB8C4C8229B6C5500164F36 /* HypFlashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBB8C4C5229B6C5400164F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB8C4B0229B6C5100164F36 /* HypFlash */;
+			targetProxy = FBB8C4C4229B6C5400164F36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBB8C4BA229B6C5400164F36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBB8C4BB229B6C5400164F36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBB8C4CA229B6C5500164F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBB8C4CB229B6C5500164F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FBB8C4CD229B6C5500164F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D0B4F05E693247D62BF583 /* Pods-HypFlash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HypFlash/HypFlash.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49D8NY9JB9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = HypFlash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = computecycles.com.HypFlash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBB8C4CE229B6C5500164F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B3812D34643BA53BBDC527 /* Pods-HypFlash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HypFlash/HypFlash.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49D8NY9JB9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = HypFlash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = computecycles.com.HypFlash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FBB8C4D0229B6C5500164F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49D8NY9JB9;
+				INFOPLIST_FILE = HypFlashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = computecycles.com.HypFlashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypFlash.app/Contents/MacOS/HypFlash";
+			};
+			name = Debug;
+		};
+		FBB8C4D1229B6C5500164F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 49D8NY9JB9;
+				INFOPLIST_FILE = HypFlashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = computecycles.com.HypFlashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypFlash.app/Contents/MacOS/HypFlash";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB8C4AC229B6C5000164F36 /* Build configuration list for PBXProject "HypFlash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB8C4CA229B6C5500164F36 /* Debug */,
+				FBB8C4CB229B6C5500164F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB8C4CC229B6C5500164F36 /* Build configuration list for PBXNativeTarget "HypFlash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB8C4CD229B6C5500164F36 /* Debug */,
+				FBB8C4CE229B6C5500164F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB8C4CF229B6C5500164F36 /* Build configuration list for PBXNativeTarget "HypFlashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB8C4D0229B6C5500164F36 /* Debug */,
+				FBB8C4D1229B6C5500164F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBB8C4A9229B6C5000164F36 /* Project object */;
+}

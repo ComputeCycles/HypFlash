@@ -1,0 +1,16 @@
+PODS:
+  - Yams (1.0.1)
+
+DEPENDENCIES:
+  - Yams
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Yams
+
+SPEC CHECKSUMS:
+  Yams: 572f625a8b719b73e0b57fd313c680f3e2161fe9
+
+PODFILE CHECKSUM: a339ad810e86c93a1284f6cd3ffc83834ea024fe
+
+COCOAPODS: 1.5.3
